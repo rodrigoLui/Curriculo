@@ -22,6 +22,11 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 .hidden{
     display: none;
 }
+.container{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
 /* BODY */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -71,6 +76,9 @@ footer{
     background-color: rgb(11, 11, 49);
     padding: 20px;
 }
+footer .container{
+    padding: 0 0 0 20px;
+}
 footer nav ul li a{
     color: white;
 }
@@ -94,6 +102,12 @@ footer nav .info-contato li a img{
     width: 40px;
 }
 /* PÀGINA INICIAL */
+main .container{
+    padding: 0 0 0 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
 main .coluna section{
     border-bottom: 1px solid #d4e9ff;
     margin: 0 0 20px;
