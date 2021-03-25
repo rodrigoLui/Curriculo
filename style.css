@@ -2,6 +2,10 @@
 /*
 PADRONIZAÇÂO
 */
+
+:root{
+    --corBranca:rgb(255, 255, 255);
+}
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
     margin: 0;
     padding: 0;
@@ -12,7 +16,6 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 .coluna .coluna-direita{
     flex-wrap: wrap;
 }
-
 .coluna{
     flex-basis: 49%;
 }
@@ -41,12 +44,10 @@ header .coluna-esquerda{
 }
 header .coluna-direita{
     flex-basis: 70%;
-
 }
 header .coluna img{
     max-width: 100%;
-    border-radius: 100%;
-    
+    border-radius: 100%;  
 }
 header .coluna h1{
     font-size: 1.5rem;
@@ -65,7 +66,6 @@ header .coluna ul li a{
     font-size: 1rem;
     color: black;
 }
-
 /* FOOTER */
 footer{
     background-color: rgb(11, 11, 49);
@@ -74,10 +74,6 @@ footer{
 footer nav ul li a{
     color: white;
 }
-.redes-sociais{
-    
-}
-
 footer nav .redes-sociais li{
     margin: 0 15px;
     text-align: center;
@@ -125,7 +121,9 @@ main .coluna section ul li strong{
     display: inline-block;
 }
 /* ESTRAX */
+.dark-mode{
 
+}
 
 /* @MEDIA */
 @media only screen and (min-width: 768px){
@@ -144,8 +142,6 @@ main .coluna section ul li strong{
     }
     header{
         padding: 30px 0 0;
-    }
-    
     }
     .container{
         width: 100%;
