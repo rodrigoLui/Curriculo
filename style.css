@@ -99,9 +99,10 @@ footer nav .info-contato li a img{
 }
 /* PÀGINA INICIAL */
 main .coluna section{
-    border: 1px solid #d4e9ff;
+    border-bottom: 1px solid #d4e9ff;
     margin: 0 0 20px;
     padding: 18px;
+    min-height: 187px;
 }
 main .coluna section h2{
     font-size: 1.2rem;
@@ -151,5 +152,8 @@ main .coluna section ul li strong{
         max-width: 900px;
         margin: 0 auto;
         padding: 30px;
+    }
+    main .coluna section{
+        border: 1px solid #d4e9ff;
     }
 }
