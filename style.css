@@ -32,6 +32,7 @@ header .container{
 }
 header .linha{
     align-items: center;
+    text-align: center;
 }
 header .coluna-esquerda{
     flex-basis: 30%;
